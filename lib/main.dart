@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'page animations/first_page.dart';
+import 'Staggered Animation/staggered_animation.dart';
+// import 'page animations/first_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FirstPage(),
+      home: StaggerAnimation(),
     );
   }
 }
